@@ -45,7 +45,7 @@ const Header = () => {
               Take the chance to <br /> change your life
             </h2>
 
-            <p className="text-xl">Take the risk and test your luck </p>
+            <p className="text-xl">Test Your Luck and Win Big </p>
           </div>
         </div>
 
