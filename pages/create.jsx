@@ -68,10 +68,7 @@ function Create() {
         <div className="flex flex-col justify-center items-center mt-20">
           <div className="flex flex-col items-center justify-center my-5">
             <h1 className="text-2xl font-bold text-slate-800 py-5">Create Jackpots</h1>
-            <p className="text-center text-sm text-slate-600">
-              Take the risk and test your luck <br />
-              Today just might be your day, give our lottery a shot{' '}
-            </p>
+            <p className="text-center text-sm text-slate-600">Test Your Luck and Win Big</p>
           </div>
 
           <form onSubmit={handleSubmit} className="w-full max-w-md">
