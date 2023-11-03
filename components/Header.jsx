@@ -18,12 +18,7 @@ const Header = () => {
       <div className="flex items-center justify-between text-white py-5">
         <h1 className="text-xl font-bold">DappLottery</h1>
 
-        <div className="hidden lg:flex items-center space-x-3 font-semibold">
-          <p>Home</p>
-          <p>How To Play</p>
-          <p>All Lottery</p>
-          <p>Contact</p>
-        </div>
+        <div className="hidden lg:flex items-center space-x-3 font-semibold"></div>
 
         {wallet ? (
           <button
