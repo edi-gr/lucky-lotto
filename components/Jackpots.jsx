@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from 'next/image'
+import Link from 'next/link'
 import { truncate } from '@/services/blockchain'
 
 const Jackpots = ({ jackpots }) => {
@@ -8,8 +8,8 @@ const Jackpots = ({ jackpots }) => {
       <div className=" flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold text-slate-800 py-5">Lottery Jackpots</h1>
         <p className="text-center text-sm text-slate-600">
-          We bring a persolan and effective every project we work on. <br />
-          which is why our client love why they keep coming back.
+          Trustworthy, Transparent and Top-Class <br />
+          We provide nothing but the best{' '}
         </p>
       </div>
 
@@ -40,7 +40,9 @@ const Jackpot = ({ jackpot }) => {
       </div>
       <div className="py-5">
         <p className="font-semibold pb-2 text-green-300">{jackpot.title}</p>
-        <p className="text-sm leading-5 text-gray-500">{truncate(jackpot.description, 100, 0, 103)}</p>
+        <p className="text-sm leading-5 text-gray-500">
+          {truncate(jackpot.description, 100, 0, 103)}
+        </p>
       </div>
       <Link
         href={'/jackpots/' + jackpot.id}

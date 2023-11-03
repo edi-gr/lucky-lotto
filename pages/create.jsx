@@ -69,8 +69,8 @@ function Create() {
           <div className="flex flex-col items-center justify-center my-5">
             <h1 className="text-2xl font-bold text-slate-800 py-5">Create Jackpots</h1>
             <p className="text-center text-sm text-slate-600">
-              We bring a persolan and effective every project we work on. <br />
-              which is why our client love why they keep coming back.
+              Test Your Luck and Win Big <br />
+              Today just might be your day, give our lottery a shot{' '}
             </p>
           </div>
 

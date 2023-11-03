@@ -51,8 +51,8 @@ const Header = () => {
             </h2>
 
             <p className="text-xl">
-              We bring a persolan and effective to every project we work on. <br />
-              Which is why our client love why they keep coming back.
+              Take the chance to change your life <br />
+              Take the risk and test your luck{' '}
             </p>
           </div>
         </div>
